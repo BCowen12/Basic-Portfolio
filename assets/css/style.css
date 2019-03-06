@@ -74,6 +74,7 @@ h1{
 body{
     background-image: url(../images/white-waves.png);
     margin: 0;
+    height: 100%;
 }
 
 #profile_pic{
@@ -104,7 +105,16 @@ body{
     width: 250px;
     margin-right: 40px;
     margin-bottom: 40px;
-    margin-top: 40px;
+}
+
+#row1{
+    clear: both;
+    float:left;
+}
+
+#row2{
+    clear: both;
+    float: left;
 }
 
 #hangman{
@@ -112,9 +122,9 @@ body{
     float: left;
 }
 
-#rpg{
+#rpg {
     position: relative;
-    display: block;
+    float: right;
 }
 
 #trivia{
@@ -123,26 +133,90 @@ body{
 }
  #info{
     position: relative;
-    display: block;
- }
+    float: right;
+}
 
  #rps{
      position: relative;
      float: left;
      display: block;
+     clear: both;
  }
 
+#hangman p{
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 50px;
+    width: 250px;
+    height: 10%;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+#rpg p{
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 50px;
+    width: 250px;
+    height: 10%;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+#trivia p{
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 50px;
+    width: 250px;
+    height: 10%;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#info p{
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 50px;
+    width: 250px;
+    height: 10%;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#rps p{
+    background-color: #4aaaa5;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 50px;
+    width: 250px;
+    height: 10%;
+    font-size: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 .footer {
     position: fixed;
+    clear: both;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 50px;
     background-color: #666666;
-    color: white;
+    color: #ffffff;
     text-align: center;
     border-top: 8px #4aaaa5 solid;
   }
