@@ -99,7 +99,7 @@ body{
     height: 200px;
 }
 
-#pic{
+.pic{
     position: relative;
     height: 235px;
     width: 250px;
@@ -208,7 +208,7 @@ body{
     padding-bottom: 5%;
 }
 
-.footer {
+footer {
     position: fixed;
     clear: both;
     left: 0;
